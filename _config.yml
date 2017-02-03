@@ -69,6 +69,6 @@ theme: hexo-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/lvcAI/lvcAI.github.io.git
+  repo: git@github.com:lvcAI/pengjiacheng.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
