@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Lvc-个人博客
+subtitle: 从未放弃过追求幸福！
 description:
-author: John Doe
-language:
+author: Lvc
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,11 +63,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repository: http://github.com/lvcAI/pengjiacheng.github.io.git
+  repo: https://github.com/lvcAI/lvcAI.github.io.git
   branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
